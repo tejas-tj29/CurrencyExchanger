@@ -24,7 +24,8 @@ function App() {
   }
 
   return (
-        <div className="w-full h-screen flex flex-wrap justify-center items-center">
+        <div className="w-full h-screen flex flex-wrap justify-center items-center"
+        style={{ backgroundImage: `url('https://images.pexels.com/photos/36183618/pexels-photo-36183618.jpeg')`}}>
             <div className="w-full">
                 <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
